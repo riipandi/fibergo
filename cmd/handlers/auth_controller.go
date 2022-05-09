@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/riipandi/fibergo/app/models"
+	"github.com/riipandi/fibergo/cmd/models"
 	"github.com/riipandi/fibergo/pkg/utils"
 	"github.com/riipandi/fibergo/platform/cache"
 	"github.com/riipandi/fibergo/platform/database"

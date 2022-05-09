@@ -3,7 +3,7 @@ package services
 import (
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
-	"github.com/riipandi/fibergo/app/models"
+	"github.com/riipandi/fibergo/cmd/models"
 )
 
 // BookQueries struct for services from Book model.

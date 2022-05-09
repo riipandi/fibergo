@@ -5,7 +5,7 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
-	"github.com/riipandi/fibergo/app/models"
+	"github.com/riipandi/fibergo/cmd/models"
 	"github.com/riipandi/fibergo/pkg/repository"
 	"github.com/riipandi/fibergo/pkg/utils"
 	"github.com/riipandi/fibergo/platform/database"

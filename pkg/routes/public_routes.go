@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/riipandi/fibergo/app/handlers"
+	"github.com/riipandi/fibergo/cmd/handlers"
 )
 
 // PublicRoutes func for describe group of public routes.

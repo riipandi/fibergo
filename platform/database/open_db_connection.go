@@ -1,6 +1,6 @@
 package database
 
-import "github.com/riipandi/fibergo/app/services"
+import "github.com/riipandi/fibergo/cmd/services"
 
 // Queries struct for collect all app services.
 type Queries struct {
