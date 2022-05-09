@@ -32,8 +32,11 @@ func ConnectionURLBuilder(n string) (string, error) {
 		)
 	case "fiber":
 		// URL for Fiber connection.
-		// FIXME Load from envars.
-		url = fmt.Sprintf("%s:%s", "0.0.0.0", "3030")
+		url = fmt.Sprintf(
+			"%s:%s",
+			os.Getenv("SERVER_HOST"),
+			os.Getenv("SERVER_PORT"),
+		)
 	default:
 		// Return error message.
 		return "", fmt.Errorf("connection name '%v' is not supported", n)
