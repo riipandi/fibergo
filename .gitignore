@@ -1,0 +1,22 @@
+# Essentials
+**/.idea
+**/.vscode
+**/.DS_Store
+**/.DS_Store?
+**/*.log
+**/*.draft
+
+# Dev build
+build/
+tmp/
+
+# Test
+*.out
+
+# Environment variables
+.env*
+!.env.example
+
+# Persistent data
+localdata/*
+!localdata/.gitkeep
