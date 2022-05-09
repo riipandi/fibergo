@@ -251,7 +251,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "Books"
+                    "Book"
                 ],
                 "summary": "get all exists books",
                 "responses": {

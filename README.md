@@ -13,7 +13,7 @@
 
 ## Introduction
 
-TODO
+Starter template Golang REST with Fiber framework.
 
 ## Quick Start
 
