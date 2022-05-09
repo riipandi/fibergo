@@ -67,7 +67,7 @@ definitions:
     type: object
 info:
   contact:
-    email: your@mail.com
+    email: aris@duck.com
     name: API Support
   description: This is an auto-generated API Docs.
   license:

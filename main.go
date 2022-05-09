@@ -19,7 +19,7 @@ import (
 // @description This is an auto-generated API Docs.
 // @termsOfService http://swagger.io/terms/
 // @contact.name API Support
-// @contact.email your@mail.com
+// @contact.email aris@duck.com
 // @license.name MIT
 // @license.url https://aris.mit-license.org/
 // @securityDefinitions.apikey ApiKeyAuth

@@ -13,7 +13,7 @@ const docTemplate = `{
         "termsOfService": "http://swagger.io/terms/",
         "contact": {
             "name": "API Support",
-            "email": "your@mail.com"
+            "email": "aris@duck.com"
         },
         "license": {
             "name": "MIT",
