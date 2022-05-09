@@ -17,6 +17,12 @@ TODO
 
 ## Quick Start
 
+```bash
+degit riipandi/fibergo myapp-name
+```
+
+> Don't forget to change `myapp-name` with your real application name.
+
 ### Prerequisite
 
 1. Install Docker and Docker Compose : https://docs.docker.com/desktop
