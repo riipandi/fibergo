@@ -33,7 +33,7 @@ ENV JWT_SECRET_KEY $JWT_SECRET_KEY
 COPY --from=builder /build/apigo /apigo
 COPY --from=builder /build/.env /.env
 
-EXPOSE 3030
+# EXPOSE 3030
 
 # Command to run when starting the container.
 ENTRYPOINT ["/apigo"]
