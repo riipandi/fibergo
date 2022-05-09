@@ -48,6 +48,7 @@ docker.fiber.build:
 docker.fiber: docker.fiber.build
 	docker run --rm -d \
 		--name $(APP_NAME) \
+		--env-file $(PWD)/.env \
 		--network intranet \
 		-p 3030:3030 \
 		$(APP_NAME)
